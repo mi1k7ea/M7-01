@@ -1,0 +1,14 @@
+[08/03/2020-23:57:09] [INFO] Log level is 4
+[08/03/2020-23:57:09] [INFO] Dictionary file is ./dict/DIR.txt
+[08/03/2020-23:57:09] [INFO] Thread count is 30
+[08/03/2020-23:57:09] [INFO] Sleep time is 1s
+[08/03/2020-23:57:09] [INFO] Start scanning...
+[08/03/2020-23:57:12] [INFO] !!!Found Web Dir: http://ecms.phome.net/index.html
+[08/03/2020-23:57:17] [INFO] !!!Found Web Dir: http://ecms.phome.net/support/
+[08/03/2020-23:57:54] [INFO] !!!Found Web Dir: http://ecms.phome.net/doc
+[08/03/2020-23:57:54] [INFO] !!!Found Web Dir: http://ecms.phome.net/down
+[08/03/2020-23:57:59] [INFO] !!!Found Web Dir: http://ecms.phome.net/support
+[08/03/2020-23:58:10] [INFO] !!!Found Web Dir: http://ecms.phome.net/doc/
+[08/03/2020-23:58:10] [INFO] !!!Found Web Dir: http://ecms.phome.net/down/
+[08/03/2020-23:58:42] [INFO] Scan finished!
+[08/03/2020-23:58:42] [INFO] Scan result is saved in ./result/ directory.
