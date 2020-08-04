@@ -6,7 +6,7 @@
 
 使用方法如下：
 
-```bash
+```powershell
 Usage: python m7-01.py -u <Target URL> [-f <Custom dictionary file name>] [-t <Thread_count>] [-s <Sleep_time>] [-l <Log_level>]
 
 Options:
@@ -30,4 +30,27 @@ Options:
 扫描结果保存在result目录下新生成的以扫描目标的域名为名的文件中。
 
 具体扫描过程可根据log目录下的日志文件进行分析。
+
+扫描效果：
+
+```powershell
+PS M:\M7-01> python m7-01.py -u https://demo.yzmcms.com -f dict/PHP.txt
+
+        _|      _|  _|_|_|_|_|                _|      _|
+        _|_|  _|_|          _|              _|  _|  _|_|
+        _|  _|  _|        _|    _|_|_|_|_|  _|  _|    _|
+        _|      _|      _|                  _|  _|    _|
+        _|      _|    _|                      _|      _|  v1.0
+
+
+[*]Start to scan url: https://demo.yzmcms.com
+Scan progress:   1%|▊                                                                | 31/2526 [00:00<00:33, 73.50it/s]
+......
+██████████████████████████████████████████████████Scan progress:  99%|██████████████████████████████████████████████████Scan progress: 100%|██████████████████████████████████████████████████Scan progress: 100%|██████████████████████████████████████████████████Scan progress: 100%|██████████████████████████████████████████████████[*]Finished.
+[*]Scan result is saved in ./result/ directory.
+PS M:\M7-01> type result/demo_yzmcms_com.txt
+https://demo.yzmcms.com/admin/index.php
+https://demo.yzmcms.com/index.php
+PS M:\M7-01>          
+```
 
